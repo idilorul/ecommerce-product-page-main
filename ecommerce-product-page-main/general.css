@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid--2--cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 0fr);
+}
+
+.grid--4--cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5--cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.screen__top__left {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 10rem;
+}
+
+.screen__top__right{
+    display: flex;
+    gap: 2rem;
+    margin-left: 10rem;
+}
+
+.screen__top {
+    gap: 20rem;
+    margin-top: 1rem;
+}
+
+.hr__ {
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+
+.screen__left {
+    margin-left: 10rem;
+}
+
+.screen {
+    margin-top: 5rem;
+}
+
+.right__price {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.shoes__nummer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.for__buy__button {
+    display: flex;
+    gap: 1rem;
+}
+
+.right__buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.screen__right {
+    margin-top: 3rem;
+}
+
+.shoes__one__old__price {
+    margin-top: 0.5rem;
+}
+
+.bla {
+    display: flex;
+    gap: 1rem;
+}

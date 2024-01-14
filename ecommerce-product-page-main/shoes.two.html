@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="general.css">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="screen__top grid grid--2--cols">
+      <div class="screen__top__left">
+        <img class="sneakers__logo" src="images/logo.svg" alt="">
+        <a  class="screen__top__classification" href="#">Collections</a>
+        <a  class="screen__top__classification" href="#">Men</a>
+        <a  class="screen__top__classification" href="#">Women</a>
+        <a  class="screen__top__classification" href="#">About</a>
+        <a  class="screen__top__classification" href="#">Contact</a>
+      </div>
+      <div class="screen__top__right">
+        <a class="cart__logo" href="#"><img src="images/icon-cart.svg" alt=""></a>
+        <img class="avatar__img" src="images/image-avatar.png" alt="">
+      </div>
+    </div>
+    <hr class="hr__" width="1100">
+    <div class="screen grid grid--2--cols">
+    <div class="screen__left">
+      <img class="screen__shoes" src="images/image-product-1.jpg" alt="">
+      <div class="shoes__classification">
+        <a class="shoes__one__link" href="index.html"><img class="shoes__two" src="images/image-product-1.jpg" alt=""></a>
+        <a href="#"><img class="shoes__one" src="images/image-product-2.jpg" alt=""></a>
+        <a href="#"><img class="shoes__two" src="images/image-product-3.jpg" alt=""></a>
+        <a href="#"><img class="shoes__two" src="images/image-product-4.jpg" alt=""></a>
+      </div>
+    </div>
+    <div class="screen__right">
+      <h1 class="right__title__one">SNEAKER COMPANY</h1>
+      <h1 class="right__title__two">Fall Limited Edition Sneakers</h1>
+      <p class="right__exmp">These low-profile sneakers are your perfect wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+      <div class="right__price">
+        <h1 class="shoes__one__price">$125.00</h1>
+        <p class="shoes__one__sale"><strong>50%</strong></p>
+      </div>
+      <p class="shoes__one__old__price">$250.00</p>
+      <div class="right__buttons">
+        <div class="shoes__nummer">
+        <button class="minus__sign">-</button><strong class="nummer"> <p id="shoes__stuck">0</strong></p><button class="plus__sign">+</button>
+        </div>
+        <button class="for__buy__button"><img src="images/icon-cart.svg" alt=""> <p class="for__buy">Add to cart</p></button>
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
